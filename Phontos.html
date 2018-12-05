@@ -36,6 +36,8 @@
 
     <!--添加id进行设置，-->
     <img id="placeholder" src="images/placeholder.jpg" alt="my image gallery">
+    <p id="description">choose an image.</p>
+
 
 
     <!--插入/body之前-->
@@ -45,9 +47,14 @@
         function showPic(whichpic) {
             //whichpic 元素节点，指向某个a元素
             var source =whichpic.getAttribute("href");
+            var text = whichpic.getAttribute("title");
 
             var placeholder = document.getElementById("placeholder");
+            var description = document.getElementById("description");
+
             placeholder.setAttribute("src",source);
+
+            description.firstChild.nodeValue = text;
 
         }
 
@@ -60,22 +67,22 @@
     //    这个点击的《a》的对象
     // showPic(this)
 
-        //添加事件处理语法
-        //onclick = "showPic(this);return false;"
-
-
-        function  countBodyChildren() {
-        var body_element = document.getElementsByTagName("body")[0];
-        alert(body_element.childNodes.length);
-    }
-
-    //页面加载时执行。
-        /**
-         *
-         * 加了括号，先弹出弹窗
-         * 没有加，内容跟弹窗一起出现。
-         * **/
-    window.onload = countBodyChildren;
+    //     //添加事件处理语法
+    //     //onclick = "showPic(this);return false;"
+    //
+    //
+    //     function  countBodyChildren() {
+    //     var body_element = document.getElementsByTagName("body")[0];
+    //     alert(body_element.childNodes.length);
+    // }
+    //
+    // //页面加载时执行。
+    //     /**
+    //      *
+    //      * 加了括号，先弹出弹窗
+    //      * 没有加，内容跟弹窗一起出现。
+    //      * **/
+    // window.onload = countBodyChildren;
 
 
 
