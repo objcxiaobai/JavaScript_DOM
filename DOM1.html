@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping list1</title>
+</head>
+<body>
+
+    <h1>what to buy</h1>
+    <p title="a gentle reminder">Don't forget to buy this stuff.</p>
+    <ul id="purchases">
+        <li>a tin of beans</li>
+        <li class="sale">cheese</li>
+        <li class="sale import">milk</li>
+    </ul>
+
+    <script>
+        // alert(typeof document.getElementById("purchases"))
+        //文档列表有3个
+        // alert(document.getElementsByTagName("li").length);
+        // for (var i = 0; i < document.getElementsByTagName("li").length;i++){
+        //     alert(typeof  document.getElementsByTagName("li")[i]);
+        // }
+        //html所有标签
+        // alert(document.getElementsByTagName("*").length)
+        //返回id值里的所有无序元素。
+        // var shopping = document.getElementById("purchases");
+        // var items = shopping.getElementsByTagName("*");
+        // alert(items.length)
+        //
+        // var shopping = document.getElementById("purchases")
+        // var items = shopping.getElementsByClassName("sale");
+
+
+        var  paras = document.getElementsByTagName("p");
+        for (var i = 0; i<paras.length;i++){
+            var title_text = paras[i].getAttribute("title");
+            if (title_text) alert(title_text)
+        }
+
+    </script>
+
+</body>
+</html>
