@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>JavaScript</title>
+    <link rel="stylesheet" href="css/phpto.css">
 </head>
 <body>
     <!--最初功能是，点击链接跳转到另一个页面查看图片，html和图片都在根目录下-->
@@ -16,6 +17,9 @@
             1.增加占位符，为主页到图片预留浏览区域
             2.点击链接，拦截网页默认行为
             3.点击链接，占位符默认图片显示点击链接到那张
+
+        需求2：在同一个网页切换图片，并且li里面的title显示在主页的标题description上
+
     -->
 
 
@@ -39,54 +43,8 @@
     <p id="description">choose an image.</p>
 
 
-
     <!--插入/body之前-->
-    <script>
-
-        <!--whichpic -->
-        function showPic(whichpic) {
-            //whichpic 元素节点，指向某个a元素
-            var source =whichpic.getAttribute("href");
-            var text = whichpic.getAttribute("title");
-
-            var placeholder = document.getElementById("placeholder");
-            var description = document.getElementById("description");
-
-            placeholder.setAttribute("src",source);
-
-            description.firstChild.nodeValue = text;
-
-        }
-
-    //   只有添加事件处理函数，才能达成目标
-    /**
-     *  onmouseover 悬停触发
-     *  onmouseout  离开某个元素触发
-     *  onclick  点击某个链接触发
-     * **/
-    //    这个点击的《a》的对象
-    // showPic(this)
-
-    //     //添加事件处理语法
-    //     //onclick = "showPic(this);return false;"
-    //
-    //
-    //     function  countBodyChildren() {
-    //     var body_element = document.getElementsByTagName("body")[0];
-    //     alert(body_element.childNodes.length);
-    // }
-    //
-    // //页面加载时执行。
-    //     /**
-    //      *
-    //      * 加了括号，先弹出弹窗
-    //      * 没有加，内容跟弹窗一起出现。
-    //      * **/
-    // window.onload = countBodyChildren;
-
-
-
-    </script>
+    <script src = "js/photo.js"></script>
 </body>
 
 </html>
