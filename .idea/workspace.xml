@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7d363b-69eb-45b2-97b9-8f7ec9588e34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Phontos.html" beforeDir="false" afterPath="$PROJECT_DIR$/Phontos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,67 +17,68 @@
     <session id="-1621607454">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="1" />
-          <entry key="html" value="2" />
-          <entry key="js" value="1" />
+          <entry key="html" value="3" />
+          <entry key="js" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="1" />
-          <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="JavaScript" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="157" />
-          <entry key="html" value="2052" />
-          <entry key="js" value="5" />
+          <entry key="css" value="175" />
+          <entry key="html" value="2744" />
+          <entry key="js" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="157" />
-          <entry key="HTML" value="2052" />
-          <entry key="JavaScript" value="5" />
+          <entry key="CSS" value="175" />
+          <entry key="HTML" value="2744" />
+          <entry key="JavaScript" value="63" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Phontos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="138">
+              <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Smooth.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/phpto.css">
+        <entry file="file://$PROJECT_DIR$/Smooth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/photo.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="15">
+              <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -87,9 +88,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
-        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -101,8 +102,10 @@
       <list>
         <option value="$PROJECT_DIR$/DOM1.html" />
         <option value="$PROJECT_DIR$/js/photo.js" />
-        <option value="$PROJECT_DIR$/css/phpto.css" />
         <option value="$PROJECT_DIR$/Phontos.html" />
+        <option value="$PROJECT_DIR$/css/phpto.css" />
+        <option value="$PROJECT_DIR$/Smooth.js" />
+        <option value="$PROJECT_DIR$/Smooth.html" />
       </list>
     </option>
   </component>
@@ -113,8 +116,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
-    <option name="y" value="-1009" />
+    <option name="x" value="103" />
+    <option name="y" value="-931" />
     <option name="width" value="1366" />
     <option name="height" value="805" />
   </component>
@@ -130,11 +133,6 @@
             <path>
               <item name="JSDOM" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSDOM" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JSDOM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="JSDOM" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,19 +169,24 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Phontos.html">
+  <component name="RunManager" selected="JavaScript Debug.Smooth.html">
     <configuration name="DOM1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JSDOM/DOM1.html">
       <method v="2" />
     </configuration>
     <configuration name="Phontos.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JSDOM/Phontos.html">
       <method v="2" />
     </configuration>
+    <configuration name="Smooth.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/JSDOM/Smooth.html">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.DOM1.html" />
       <item itemvalue="JavaScript Debug.Phontos.html" />
+      <item itemvalue="JavaScript Debug.Smooth.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.Smooth.html" />
         <item itemvalue="JavaScript Debug.Phontos.html" />
         <item itemvalue="JavaScript Debug.DOM1.html" />
       </list>
@@ -200,15 +203,16 @@
       <option name="presentableId" value="Default" />
       <updated>1543895831696</updated>
       <workItem from="1543895835098" duration="2571000" />
-      <workItem from="1543983407163" duration="8926000" />
+      <workItem from="1543983407163" duration="9175000" />
+      <workItem from="1544080994404" duration="2600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11497000" />
+    <option name="totallyTimeSpent" value="14346000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="475" y="-1009" width="1366" height="805" extended-state="0" />
+    <frame x="438" y="-931" width="1366" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
@@ -244,6 +248,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/phpto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/photo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
@@ -251,17 +262,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/phpto.css">
+    <entry file="file://$PROJECT_DIR$/Phontos.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="138">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Phontos.html">
+    <entry file="file://$PROJECT_DIR$/Smooth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+        <state relative-caret-position="15">
+          <caret line="1" column="53" selection-start-line="1" selection-start-column="53" selection-end-line="1" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Smooth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
         </state>
       </provider>
     </entry>
