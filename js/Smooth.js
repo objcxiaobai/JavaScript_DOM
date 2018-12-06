@@ -1,7 +1,8 @@
 window.onload = prepareLinks;
 
 function prepareLinks () {
-    if (!document.getElementsByTagName) return false;
+    var isDocument = document.getElementsByTagName;
+    if (!isDocument) return false;
     var links = document.getElementsByTagName('a');
     for (var i = 0 ; i<links.length;i++){
         if (links[i].getAttribute('class') !== 'popUp') {
