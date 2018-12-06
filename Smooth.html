@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>平稳</title>
     <!--当需要在某个网页里使用此函数，只要在这个位置导入外部标签就行了。影响我如何使用这个函数-->
-    <script src="Smooth.js"></script>
+    <script src="js/Smooth.js"></script>
 </head>
 <body>
 
@@ -27,13 +27,17 @@
     <!--最典型的平稳退化的例子-->
     <!--<a href="http://www.baidu.com" onclick="popUp('http://www.baidu.com/'); return false;">baidu</a>-->
     <!--<a href="http://www.baidu.com" onclick="popUp(this.getAttribute('href')); return false;">baidu</a>-->
-    <a href="http://www.baidu.com/" onclick="popUp(this.href); return false;">baidu</a>
+    <!--<a href="http://www.baidu.com/" onclick="popUp(this.href); return false;">baidu</a>-->
 
     <!--就算不可以用js，也可以打开-->
     <!--不足：
         1。每次需要打开新窗口
         2。把js嵌套在html标签中
     -->
+
+
+    <!--最新方法-->
+    <a href="http://www.baidu.com" class="popUp">baidu</a>
 
 </body>
 </html>
