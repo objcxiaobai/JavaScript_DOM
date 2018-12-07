@@ -32,8 +32,9 @@ function prepareGallery() {
         links[i].onclick = function () {
             //this 代表着links[i]
 
-            return !showPic(this)
+            return !showPic(this);
         }
+        links[i].onkeypressv = links.onclick;
     }
 
 }
