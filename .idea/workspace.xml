@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ce7d363b-69eb-45b2-97b9-8f7ec9588e34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/js/UpgradePhoto.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/UpgradePhoto.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpgradePhontos.html" beforeDir="false" afterPath="$PROJECT_DIR$/UpgradePhontos.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/phpto.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/phpto.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,29 +28,29 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
           <entry key="html" value="8" />
           <entry key="js" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
           <entry key="HTML" value="8" />
           <entry key="JavaScript" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="175" />
-          <entry key="html" value="2882" />
+          <entry key="css" value="201" />
+          <entry key="html" value="2916" />
           <entry key="js" value="1087" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="175" />
-          <entry key="HTML" value="2882" />
+          <entry key="CSS" value="201" />
+          <entry key="HTML" value="2916" />
           <entry key="JavaScript" value="1087" />
         </counts>
       </usages-collector>
@@ -75,23 +76,32 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UpgradePhontos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
+            <state relative-caret-position="258">
+              <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/UpgradePhoto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            <state relative-caret-position="229">
+              <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/phpto.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -116,12 +126,12 @@
         <option value="$PROJECT_DIR$/DOM1.html" />
         <option value="$PROJECT_DIR$/js/photo.js" />
         <option value="$PROJECT_DIR$/Phontos.html" />
-        <option value="$PROJECT_DIR$/css/phpto.css" />
         <option value="$PROJECT_DIR$/Smooth.js" />
         <option value="$PROJECT_DIR$/Smooth.html" />
         <option value="$PROJECT_DIR$/js/Smooth.js" />
-        <option value="$PROJECT_DIR$/UpgradePhontos.html" />
         <option value="$PROJECT_DIR$/js/UpgradePhoto.js" />
+        <option value="$PROJECT_DIR$/css/phpto.css" />
+        <option value="$PROJECT_DIR$/UpgradePhontos.html" />
       </list>
     </option>
   </component>
@@ -150,6 +160,11 @@
             <path>
               <item name="JSDOM" type="b2602c69:ProjectViewProjectNode" />
               <item name="JSDOM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JSDOM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JSDOM" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="JSDOM" type="b2602c69:ProjectViewProjectNode" />
@@ -238,24 +253,24 @@
       <workItem from="1543895835098" duration="2571000" />
       <workItem from="1543983407163" duration="9175000" />
       <workItem from="1544080994404" duration="6021000" />
-      <workItem from="1544109879298" duration="6490000" />
+      <workItem from="1544109879298" duration="6916000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24257000" />
+    <option name="totallyTimeSpent" value="24683000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="366" y="-1013" width="1366" height="805" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24981412" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32959327" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997195" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997195" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -294,13 +309,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/phpto.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/Smooth.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -336,20 +344,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UpgradePhontos.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="11" column="62" selection-start-line="11" selection-start-column="62" selection-end-line="11" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/UpgradePhoto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="229">
+          <caret line="32" column="30" lean-forward="true" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/phpto.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UpgradePhontos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
         </state>
       </provider>
     </entry>
