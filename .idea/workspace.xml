@@ -87,8 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/UpgradePhoto.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-177">
-              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+            <state relative-caret-position="289">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -238,12 +238,12 @@
       <workItem from="1543895835098" duration="2571000" />
       <workItem from="1543983407163" duration="9175000" />
       <workItem from="1544080994404" duration="6021000" />
-      <workItem from="1544109879298" duration="6175000" />
+      <workItem from="1544109879298" duration="6490000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23942000" />
+    <option name="totallyTimeSpent" value="24257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="366" y="-1013" width="1366" height="805" extended-state="0" />
@@ -345,8 +345,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/UpgradePhoto.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-177">
-          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+        <state relative-caret-position="289">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

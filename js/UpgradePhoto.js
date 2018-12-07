@@ -34,7 +34,6 @@ function prepareGallery() {
 
             return !showPic(this);
         }
-        links[i].onkeypressv = links.onclick;
     }
 
 }
