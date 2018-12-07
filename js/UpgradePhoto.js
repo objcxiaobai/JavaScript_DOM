@@ -31,8 +31,8 @@ function prepareGallery() {
         
         links[i].onclick = function () {
             //this 代表着links[i]
-            showPic(this);
-            return false;
+
+            return !showPic(this)
         }
     }
 
@@ -55,6 +55,7 @@ function showPic(whichpic) {
         description.firstChild.nodeValue = text;
     }
 
+    //成功调用，并且能切换图片，不考虑title
     return true;
 
 }
