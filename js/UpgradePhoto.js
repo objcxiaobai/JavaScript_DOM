@@ -10,7 +10,7 @@ addLoadEvent(prepareGallery);
 function addLoadEvent(func) {
     var oldonload = window.onload;
     if (typeof window.onload != "function"){
-        window.onload = func
+        window.onload = func;
     } else{
         window.onload = function () {
             oldonload();
@@ -38,15 +38,23 @@ function prepareGallery() {
 
 }
 
+//改进假设肯定有showpic的元素的值
 function showPic(whichpic) {
+
+    if (!document.getElementById("placeholder")) return false;
     var source =whichpic.getAttribute("href");
-    var text = whichpic.getAttribute("title");
-
     var placeholder = document.getElementById("placeholder");
-    var description = document.getElementById("description");
-
     placeholder.setAttribute("src",source);
 
-    description.firstChild.nodeValue = text;
+    if (document.getElementById("description")) {
+
+        var text = whichpic.getAttribute("title");
+
+        var description = document.getElementById("description");
+
+        description.firstChild.nodeValue = text;
+    }
+
+    return true;
 
 }
