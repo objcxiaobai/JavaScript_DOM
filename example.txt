@@ -1,0 +1,2 @@
+
+注意 该模拟的文件只能放在跟请求的hmtl同级目录下，否则加载失败this was loaded asynchronously
