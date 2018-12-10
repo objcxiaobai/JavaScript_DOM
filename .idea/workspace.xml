@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ce7d363b-69eb-45b2-97b9-8f7ec9588e34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/DOM8.html" beforeDir="false" afterPath="$PROJECT_DIR$/DOM8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/displayAbbreviations.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/displayAbbreviations.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +33,7 @@
           <entry key="869" value="1" />
           <entry key="css" value="3" />
           <entry key="html" value="15" />
-          <entry key="js" value="20" />
+          <entry key="js" value="21" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
@@ -42,23 +41,23 @@
         <counts>
           <entry key="CSS" value="3" />
           <entry key="HTML" value="15" />
-          <entry key="JavaScript" value="22" />
+          <entry key="JavaScript" value="23" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="319" />
-          <entry key="html" value="3910" />
-          <entry key="js" value="4423" />
+          <entry key="html" value="3994" />
+          <entry key="js" value="4999" />
           <entry key="txt" value="71" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="319" />
-          <entry key="HTML" value="3910" />
-          <entry key="JavaScript" value="4423" />
+          <entry key="HTML" value="3994" />
+          <entry key="JavaScript" value="4999" />
           <entry key="PLAIN_TEXT" value="71" />
         </counts>
       </usages-collector>
@@ -66,11 +65,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/DOM8.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="235">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/displayAccessKeys.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="817">
+              <caret line="43" column="30" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -78,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/displayAbbreviations.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="211">
+              <caret line="57" column="33" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -143,6 +151,7 @@
         <option value="$PROJECT_DIR$/js/displayAbbreviations.js" />
         <option value="$PROJECT_DIR$/js/displayCitations.js" />
         <option value="$PROJECT_DIR$/DOM8.html" />
+        <option value="$PROJECT_DIR$/js/displayAccessKeys.js" />
       </list>
     </option>
   </component>
@@ -203,7 +212,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiaobai/Desktop/JSDOM/Smooth.js" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/xiaobai/Desktop/JSDOM/DOM8.html" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -282,12 +291,12 @@
       <workItem from="1544154786580" duration="293000" />
       <workItem from="1544155111362" duration="252000" />
       <workItem from="1544167714978" duration="5227000" />
-      <workItem from="1544364433796" duration="14821000" />
+      <workItem from="1544364433796" duration="16062000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45887000" />
+    <option name="totallyTimeSpent" value="47128000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="30" width="1366" height="811" extended-state="0" />
@@ -336,6 +345,18 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/displayAccessKeys.js</url>
+          <line>3</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/DOM1.html">
@@ -460,13 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/displayAbbreviations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/addLoadEvent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -481,10 +495,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/displayAbbreviations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="57" column="33" selection-start-line="57" selection-start-column="13" selection-end-line="57" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DOM8.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        <state relative-caret-position="235">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/displayAccessKeys.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="817">
+          <caret line="43" column="30" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="30" />
         </state>
       </provider>
     </entry>
