@@ -13,6 +13,10 @@ function displayAbbreviations() {
     //遍历
     for (var i = 0; i<abbreviations.length;i++){
         var current_abbr = abbreviations[i];
+
+        //保证在ie浏览器能平稳退化
+        if (current_abbr.childNodes.length < 1) continue;
+
         //获属性取
         var definition = current_abbr.getAttribute("title");
         //获取abbr文本节点
@@ -38,11 +42,13 @@ function displayAbbreviations() {
         var ddesc = document.createElement("dd");
         var ddesc_text = document.createTextNode(definnition);
         ddesc.appendChild(ddesc_text);
-        
+
         dlist.appendChild(dtitle);
         dlist.appendChild(ddesc);
 
     }
+
+    if (dlist.childNodes.length <1) return false;
 
     //标题
     var header = document.createElement("h2");
