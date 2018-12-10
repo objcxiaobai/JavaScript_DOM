@@ -29,3 +29,6 @@ th,td{
 /*tr:hover{*/
     /*font-weight: bold;*/
 /*}*/
+.odd{
+    background-color: red;
+}
