@@ -82,24 +82,38 @@ function moveElement(elementID,final_x,final_y,interval){
     if (elemt.movement){
         clearTimeout(elemt.movement);
     }
+
+
+    if (!elemt.style.left){
+        elemt.style.left = "0px";
+    }
+    if (!elemt.style.top){
+        elemt.style.top = "0px";
+    }
     var xpos = parseInt(elemt.style.left);
     var ypos = parseInt(elemt.style.top);
+
+    var dist = 0;
 
     if (xpos === final_x || ypos === final_y){
         return true;
     }
     if (xpos < final_x){
-        xpos++;
+        dist = Math.ceil((final_x -xpos)/10);
+        xpos = xpos+dist;
     }
     if (xpos > final_x){
-        xpos--;
+        dist = Math.ceil((xpos-final_x )/10);
+        xpos = xpos-dist;
     }
 
     if (ypos < final_y){
-        ypos++;
+        dist = Math.ceil((final_y-ypos )/10);
+        ypos = ypos+dist;
     }
     if (ypos > final_y){
-        ypos--;
+        dist = Math.ceil((ypos-final_y )/10);
+        ypos = ypos-dist;
     }
 
     elemt.style.left = xpos + 'px';
