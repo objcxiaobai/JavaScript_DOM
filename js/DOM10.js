@@ -79,6 +79,9 @@ function moveElement(elementID,final_x,final_y,interval){
     if (!document.getElementById(elementID)) return false;
 
     var elemt = document.getElementById(elementID);
+    if (elemt.movement){
+        clearTimeout(elemt.movement);
+    }
     var xpos = parseInt(elemt.style.left);
     var ypos = parseInt(elemt.style.top);
 
@@ -103,7 +106,7 @@ function moveElement(elementID,final_x,final_y,interval){
     elemt.style.top = ypos + 'px';
     //拼接字符串
     var  repeat = "moveElement('"+elementID+"',"+final_x+","+final_y+","+interval+")";
-    movement = setTimeout(repeat,interval);
+    elemt.movement = setTimeout(repeat,interval);
 
 }
 
